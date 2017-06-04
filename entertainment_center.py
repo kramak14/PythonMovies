@@ -33,5 +33,7 @@ kingsmanTheGoldenCircle = movies.Movie("Kingsman: The Golden Circle","Two secret
                                        "https://www.youtube.com/watch?v=6reo6h7h1wk")
 
 #Creates an array of all movies, uses new Python file to open movie page.
-movies = [sully,fateOfTheFurious, theEmojiMovie, loganLucky, babyDriver, kingsmanTheGoldenCircle]
+movies2 = [sully,fateOfTheFurious, theEmojiMovie, loganLucky, babyDriver, kingsmanTheGoldenCircle]
 freshtomatoes.open_movies_page(movies)
+
+print(movies.Movie.movieRatings)

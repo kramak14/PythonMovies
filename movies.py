@@ -2,6 +2,7 @@ import webbrowser
 
 #Creates a class Movie with 4 arguments, including self to invoke a variable.
 class Movie():
+    movieRatings = ["G","PG","PG-13","R"]
     def __init__(self, movieTitle, movieStoryline, posterImage, trailerYouTube):
         self.title = movieTitle
         self.storyline = movieStoryline
